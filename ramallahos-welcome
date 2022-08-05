@@ -2,7 +2,7 @@
 dir='/usr/bin/ramallahos-welcome-resources'
 stdbuf -oL -eL yad  --width='900' --height='570' --borders=0 --center \
 					--title='Welcome' \
-					--window-icon=archcraft-yellow \
+					--window-icon=ramallahos \
 					--no-buttons --no-escape \
                     --html --uri="$dir/welcome.html" \
                     --print-uri 2>&1 \
