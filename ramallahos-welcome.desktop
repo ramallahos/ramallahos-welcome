@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=System;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+Comment=Welcome app for RamallahOS
+Exec=ramallahos-welcome
+Icon=ramallahos
+Name=RamallahOS Welcome
+GenericName=RamallahOS Welcome
+StartupNotify=true
+Terminal=false
+Type=Application
+Keywords=welcome;setup

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+DIR='/usr/bin/ramallahos-welcome/resources'
+stdbuf -oL -eL yad  --width='900' --height='570' --borders=0 --center \
+					--title='Welcome' \
+					--window-icon=archcraft-yellow \
+					--no-buttons --no-escape \
+                    --html --uri="$dir/welcome.html" \
+                    --print-uri 2>&1 \
+| while read -r line; do
+	case ${line##*/} in
+		cmd1)  calamares & ;;
+		cmd2)  ramallahos-about & ;;
+		cmd3)  ramallahos-help & ;;
+		cmd4)  ramallahos-tweaks & ;;
+		   *)  echo "No URI" ;;
+	esac
+done
