@@ -2,7 +2,7 @@
 Categories=System;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
 Comment=Welcome app for RamallahOS
 Exec=ramallahos-welcome
-Icon=/usr/share/icons/ramallahos/ramallahos.svg
+Icon=/usr/share/icons/ramallahos.svg
 Name=RamallahOS Welcome
 GenericName=RamallahOS Welcome
 StartupNotify=true
